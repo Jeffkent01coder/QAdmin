@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">QAdmin</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="login">Login</string>
+    <string name="name">Brian Kim</string>
+    <string name="welcome">Welcome back,</string>
+</resources>
