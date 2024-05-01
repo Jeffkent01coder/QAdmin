@@ -12,8 +12,8 @@ class Home : AppCompatActivity() {
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
         binding = ActivityHomeBinding.inflate(layoutInflater)
+        super.onCreate(savedInstanceState)
         supportActionBar?.hide()
         setContentView(binding.root)
 
@@ -25,7 +25,6 @@ class Home : AppCompatActivity() {
                 R.id.icOrder -> replaceFragment(OrdersFragment())
                 R.id.icProduct -> replaceFragment(ProductsFragment())
                 R.id.icSales -> replaceFragment(SalesFragment())
-                R.id.icUsers -> replaceFragment(UsersFragment())
                 R.id.icSettings -> replaceFragment(SettingsFragment())
 
                 else -> {
