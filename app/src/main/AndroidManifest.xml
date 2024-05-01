@@ -13,21 +13,16 @@
         android:theme="@style/Theme.QAdmin"
         tools:targetApi="31">
         <activity
-            android:name=".ProductsFagment"
+            android:name=".ui.Home"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
+
+
         <activity
-            android:name=".OrdersActivity"
-            android:exported="false">
-            <meta-data
-                android:name="android.app.lib_name"
-                android:value="" />
-        </activity>
-        <activity
-            android:name=".LoginActivity"
+            android:name=".ui.LoginActivity"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"

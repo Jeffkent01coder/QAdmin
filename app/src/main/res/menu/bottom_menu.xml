@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/icHome"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:title="Home" />
+    <item
+        android:id="@+id/icOrder"
+        android:icon="@drawable/ic_baseline_bookmark_border_24"
+        android:title="Orders"
+
+        />
+    <item
+        android:id="@+id/icProduct"
+        android:icon="@drawable/ic_baseline_production_quantity_limits_24"
+        android:title="Products"
+        />
+    <item
+        android:id="@+id/icSales"
+        android:icon="@drawable/ic_baseline_point_of_sale_24"
+        android:title="Sales"
+        />
+    <item
+        android:id="@+id/icUsers"
+        android:icon="@drawable/ic_baseline_supervised_user_circle_24"
+        android:title="Users"
+        />
+    <item
+        android:id="@+id/icSettings"
+        android:icon="@drawable/ic_baseline_settings_24"
+        android:title="Settings"
+        />
+
+</menu>
